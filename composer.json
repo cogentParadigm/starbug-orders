@@ -1,0 +1,28 @@
+{
+  "name": "starbug/orders",
+  "type": "starbug-module",
+  "description": "Starbug orders module.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "namespace": "Starbug\\Orders"
+  },
+  "require": {
+    "starbug/db": "^0.12",
+    "starbug/products": "^0.9",
+    "starbug/shipping-methods": "^0.9",
+    "starbug/payments": "^0.9",
+    "starbug/intl": "^0.9",
+    "starbug/http": "^0.9.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Orders\\": "src/"
+    }
+  }
+}
